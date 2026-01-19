@@ -3,7 +3,7 @@ A responsive and user-friendly college symposium registration form built using H
 The application allows participants to register for multiple events and stores registration details using browser localStorage.
 
 ## Preview
-![Registration Form](file:///C:/Users/Welcome/Desktop/IT/event_reg_form/index.html)
+![Registration Form](Screenshot.PNG)
 
 
 # Features
