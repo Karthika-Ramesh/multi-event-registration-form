@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Symposium Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h2>🎓 College Symposium Registration</h2>
+        <p>Select events and register below</p>
+
+        <form id="regForm">
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="email" id="email" placeholder="Email Address">
+            <input type="text" id="college" placeholder="College Name">
+            <input type="text" id="department" placeholder="Department">
+            <input type="number" id="year" placeholder="Year of Study (1–5)">
+            <input type="tel" id="phone" placeholder="Mobile Number">
+
+            <div class="events">
+                <h4>Select Events</h4>
+                <label><input type="checkbox" name="event" value="Paper Presentation"> Paper Presentation</label>
+                <label><input type="checkbox" name="event" value="Project Expo"> Project Expo</label>
+                <label><input type="checkbox" name="event" value="Hackathon"> Hackathon</label>
+                <label><input type="checkbox" name="event" value="Workshop"> Workshop</label>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+
+        <p id="message"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
